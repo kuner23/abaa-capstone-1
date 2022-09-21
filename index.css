@@ -1,0 +1,32 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*FontStyle*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav.navbar { 
+display: inline-block;
+list-style-type: none;
+position: sticky;
+padding: 2px;
+background-color: darkgray;
+
+}
+
+nav.navbar img.d-inline-block { 
+float: left;
+display: inline-block;
+}
+
+
+
